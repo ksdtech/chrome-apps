@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "KSD Bookmarks",
+  "short_name": "KSD Bookmarks",
+  "description": "Link to Kentfield Symbaloo website",
+  "version": "1.2",
+  "icons": {
+    "128": "128.png"
+  },
+  "app": {
+    "urls": [
+      "http://kentfield.symbaloo.com/"
+    ],
+    "launch": {
+      "web_url": "http://kentfield.symbaloo.com/"
+    }
+  },
+  "permissions": [
+    "unlimitedStorage",
+    "notifications"
+  ]
+}
